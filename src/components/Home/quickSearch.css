@@ -1,0 +1,132 @@
+ /* CSS for quickSearch  */
+ #quickSearch{
+   
+    width: 80%;
+    margin-left: 10%;
+    /* border: 1px solid black; */
+    margin-top: 1%; 
+    /* margin-bottom: 1%; */
+} 
+#quickHeading{
+    font-size: 30px;
+    color: #722828;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+    margin-left: 2%;
+}
+
+#quickSubHeading{
+    font-size: 20px;
+    color: grey;
+    line-height: 2;
+    position: absolute;
+    margin-left: 2%;
+}
+
+#tileContainer{
+    margin-top: 3%;
+    
+}
+
+#tileComponant{
+    width: 30%;
+    height: 180px;
+    /* border: 1px solid red; */
+    display: inline-block;
+    margin-left: 2.4%;
+    margin-top: 2%;
+    box-shadow: 13px 13px 10px gray ;
+}
+.tileComponant1{
+    width: 52%;
+    float: left;
+}
+.tileComponant1 img{
+    width: 100%;
+    height: 180px;
+}
+.tileComponant2{
+    width: 45%;
+    float: left;
+    margin-left: 3%;
+    margin-top: 13%;
+}
+.tileComponantHeading p{
+    color: #722828 !important;
+    font-size: 25px;
+    font-weight: bold;
+}
+.tileComponantSubHeading{
+    font-size: 20px;
+    color: white;
+    line-height: 1;
+}
+/* Media Quiry for responsiveness  */
+@media screen and (max-width: 1400px) {
+    body{
+        background-color: #eba5a5;
+    }
+    
+}
+
+@media screen and (max-width:1000px) {
+    body{
+        background-color: skyblue;
+    }
+    #tileComponant{
+        width: 46%;
+        margin-top: 7%;
+    }
+    #searchHeading{
+        font-size: 50px;
+        left: 25%;
+    }
+    #logo{
+        left: 42%;
+    }
+    #dropDown{
+        left:30%;
+    }
+    #dropDown > select{
+        font-size: 25px;
+        height: 40px;
+        width: 200px;
+       
+    }
+}
+
+@media screen and (max-width:700px) {
+    body{
+        background-color: pink;
+    }
+    #tileComponant{
+        width: 100%;
+        margin-top: 10%;
+    }
+    #quickSearch{
+        min-height: 500px;
+    }
+    #searchHeading{
+        font-size: 35px;
+        left: 20%;
+    }
+    #logo{
+        left: 37%;
+    }
+    #dropDown{
+        left:17%;
+    }
+    #dropDown > select{
+        /* display: block; */
+        height: 30px;
+        width: 200px;
+       
+    }
+    #searchHeading{
+        font-size: 30px;
+        left: 25%;
+    }
+}
+
+

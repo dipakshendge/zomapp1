@@ -1,0 +1,84 @@
+
+header{
+    /* border: 1px solid red;  */
+   height: 60px;
+   background-color: #722828;
+   width: 100%;
+  
+}
+#brand{
+    font-size: 30px;
+    float: left;
+    margin-left: 1%;
+    margin-top: 1%;
+    font-weight: bold;
+    color: white;
+}
+#login{
+    float: right;
+    margin-right: 1%;
+    margin-top: 1%;
+
+} 
+/* Media Quiry for responsiveness  */
+@media screen and (max-width: 1200px) {
+    body{
+        background-color: #eba5a5;
+    }
+    
+}
+
+@media screen and (max-width:1000px) {
+    body{
+        background-color: skyblue;
+    }
+    #tileComponant{
+        width: 46%;
+        margin-top: 7%;
+    }
+    #searchHeading{
+        font-size: 50px;
+        left: 25%;
+    }
+    #logo{
+        left: 42%;
+    }
+    #dropDown{
+        left:30%;
+    }
+    #dropDown > select{
+        font-size: 25px;
+        height: 40px;
+        width: 200px;
+       
+    }
+}
+
+@media screen and (max-width:700px) {
+    body{
+        background-color: pink;
+    }
+    #tileComponant{
+        width: 100%;
+        margin-top: 10%;
+    }
+    #quickSearch{
+        min-height: 500px;
+    }
+    #searchHeading{
+        font-size: 35px;
+        left: 20%;
+    }
+    #logo{
+        left: 37%;
+    }
+    #dropDown{
+        left:10%;
+    }
+    #dropDown > select{
+        
+        height: 40px;
+        width: 200px;
+       
+    }
+}

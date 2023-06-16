@@ -1,0 +1,35 @@
+.main{
+    display: inline-block;
+    margin-left: 5%;
+}
+.tileImage{
+    width: 48%;
+    float: left;
+}
+.tileContent{
+    width: 50%;
+    margin-left: 2%;
+    float: left;
+}
+.imageClass > img {
+    height: 450px;
+    border-radius: 10px;
+    width: 95%;
+    /* margin-left: 1%; */
+    margin-top: 3%;
+}
+.Icon{
+    margin-bottom: 30px;
+}
+#cfeedback{
+    margin-left: 3%;
+    color: green;
+}
+.icons{
+    display: inline-block;
+    margin-left: 2%;
+}
+.icons >img{
+    width: 80px;
+    height: 80px;
+}

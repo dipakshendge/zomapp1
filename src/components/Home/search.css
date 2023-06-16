@@ -1,0 +1,102 @@
+
+/* css for search */
+#search{
+    height: 350px;
+    width: 100%;
+    min-height: 350px;
+    max-height: 500px; 
+    /* border: 1px solid green; */
+    background-image: url(https://media.istockphoto.com/id/1321195603/photo/people-having-balanced-diet-from-lunch-boxes.jpg?b=1&s=170667a&w=0&k=20&c=f_hoH_dTrLoMFHrtLwk631Z5QxOnozAOGbLanRUllWI=);
+    background-size: cover;
+} 
+ #logo{
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    position: relative;
+    left: 44%;
+    top: 13%;
+    border-radius: 50%;
+    text-align: center;
+}
+#logo span{
+    font-size: 70px;
+    color: #722828;
+    position: relative;
+    top: 20%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#searchHeading{
+    color: #ffffff;
+    position: relative;
+    left:27%;
+    top: 15%;
+    font-size: 50px;
+}
+
+#dropDown{
+    position: relative;
+    left: 30%;
+    top: 20%;
+}
+#dropDown > select{
+    /* font-size: 25px;  */
+    height: 30px;
+    width: 250px;
+   
+}
+/* Media Quiry for responsiveness  */
+@media screen and (max-width: 1200px) {
+    body{
+        background-color: #eba5a5;
+    }
+    
+}
+
+@media screen and (max-width:1000px) {
+    body{
+        background-color: skyblue;
+    }
+    #tileComponant{
+        width: 46%;
+        margin-top: 7%;
+    }
+    #searchHeading{
+        font-size: 50px;
+        left: 25%;
+    }
+    #logo{
+        left: 42%;
+    }
+    #dropDown{
+        left:30%;
+    }
+    #dropDown > select{
+        font-size: 25px;
+        height: 40px;
+        width: 200px;
+       
+    }
+}
+
+@media screen and (max-width:700px) {
+    
+    
+    #searchHeading{
+        font-size: 35px;
+        left: 20%;
+    }
+    #logo{
+        left: 37%;
+    }
+    #dropDown{
+        left:10%;
+    }
+    #dropDown > select{
+        
+        height: 40px;
+        width: 200px;
+       
+    }
+}
